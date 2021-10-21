@@ -2,5 +2,10 @@
 
 #header{
     -fx-font-size: 60px;
-    -fx-text-fill: rgb(67, 10, 210);
+    -fx-font-family: "Book Antiqua";
+    -fx-text-fill: rgb(17, 10, 210);
+    -fx-background-color: rgba(0, 102, 255, 0.34);
+    -fx-border-color: #0022ff;
 }
+
+
