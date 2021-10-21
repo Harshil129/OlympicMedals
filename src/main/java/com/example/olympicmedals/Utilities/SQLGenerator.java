@@ -26,8 +26,7 @@ public class SQLGenerator {
         )
         {
             //loop 51 times to create random records
-            for (int i=1; i<=51; i++)
-            {
+            for (int i=1; i<=51; i++) {
 
             }
         } catch (Exception e)
@@ -37,7 +36,8 @@ public class SQLGenerator {
     }
 
     /**
-     * This method named readFile() will read the data from the database and created a scanner object
+     * This method named readFile() will read the data from the database and created a scanner object that will scan the data from the database (SQL) and
+     * will print the data in the next line for 51 times.
      */
     public static void readFile()
     {

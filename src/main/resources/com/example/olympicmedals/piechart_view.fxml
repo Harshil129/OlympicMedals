@@ -18,7 +18,7 @@
             <PieChart fx:id="pieChart" BorderPane.alignment="CENTER" />
          </center>
          <bottom>
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="80.0" text="Bar View" BorderPane.alignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#list" prefHeight="35.0" prefWidth="80.0" text="Bar View" BorderPane.alignment="CENTER">
                <font>
                   <Font size="14.0" />
                </font>

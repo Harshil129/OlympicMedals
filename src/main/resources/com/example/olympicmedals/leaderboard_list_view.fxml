@@ -27,7 +27,7 @@
             </BarChart>
          </center>
          <bottom>
-            <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="94.0" text="Pie View" BorderPane.alignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#pie" prefHeight="34.0" prefWidth="94.0" text="Pie View" BorderPane.alignment="CENTER">
                <font>
                   <Font size="14.0" />
                </font>

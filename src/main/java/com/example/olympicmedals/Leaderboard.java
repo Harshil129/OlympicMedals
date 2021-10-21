@@ -9,6 +9,7 @@ public class Leaderboard {
     private String bronze;
     private int total;
 
+    //instantiated a constructor for the variables
     public Leaderboard(String country, String gold, String silver, String bronze, int total) {
         countryID = 0;
         setCountry(country);
@@ -18,6 +19,10 @@ public class Leaderboard {
         setTotal(total);
     }
 
+    /**
+     * setter and getter for the variables to set and get the data from the variable. Also added some validations for the variables.
+     * @return
+     */
     public int getCountryID() {
         return countryID;
     }
